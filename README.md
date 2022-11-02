@@ -4,4 +4,4 @@ A student committee bot to deal with students' everyday issues
 ```
 pip install pyTelegramBotApi 
 ```
-pip install pyTelegramBotApi 
+
