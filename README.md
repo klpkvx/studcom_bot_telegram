@@ -1,6 +1,7 @@
 # studcom_bot_telegram
 A student committee bot to deal with students' everyday issues
-'''
-INSTALL
-'''
+## Install
+```
+pip install pyTelegramBotApi 
+```
 pip install pyTelegramBotApi 
