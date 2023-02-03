@@ -6,6 +6,7 @@ from create_bot import dp
 async def on_startup(_):  # info about start bot
     print('Bot has been started\n')
 
+
 '''Client_part'''
 
 
