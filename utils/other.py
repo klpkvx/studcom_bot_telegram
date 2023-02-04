@@ -2,8 +2,6 @@ from aiogram import types, Dispatcher
 
 from create_bot import bot
 
-# @ dp.message_handler()
-
 
 async def echo_send(message: types.Message):
     await message.answer(message.text)
@@ -11,5 +9,5 @@ async def echo_send(message: types.Message):
     await bot.send_message(message.from_user.id, message.text)
 
 
-def register_handlers_toher(dp: Dispatcher):
+def register_handlers_other(dp: Dispatcher):
     dp.register_message_handler(echo_send)

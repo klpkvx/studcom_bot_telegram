@@ -14,6 +14,7 @@ async def commands_start(message: types.Message):
         with open(config.FileLocation.cmd_start, 'r', encoding='utf-8') as file:
             await bot.send_message(message.from_user.id, file.read(), parse_mode=types.ParseMode.HTML)
 
+
  # описание функционала бота /help
 # @dp.message_handler(commands=['help']
 
